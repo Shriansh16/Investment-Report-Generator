@@ -8,10 +8,10 @@ import os
 # Load environment variables
 llm = ChatOpenAI(
     model="gpt-4o-mini",
-    openai_api_key=os.getenv("OPENAI_API_KEY")
+    openai_api_key=st.secrets["OPENAI_API_KEY"]
 )
 
-SERPER_API_KEY = os.getenv("SERPER_API_KEY")
+SERPER_API_KEY = st.secrets["SERPER_API_KEY"]
 os.environ['SERPER_API_KEY'] = SERPER_API_KEY
 
 st.title("FinWise AI - Investment Report Generator")
