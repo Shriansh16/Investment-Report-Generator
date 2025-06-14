@@ -116,4 +116,4 @@ Summarize long-term prospects and current market conditions.""",
         )
 
         result = crew.kickoff()
-        st.markdown(result, unsafe_allow_html=True)
+        st.markdown(result)
