@@ -103,7 +103,7 @@ Interpret key financial signals, market trends, risks, and competitive advantage
 **Page 5: Conclusion and Market Outlook**  
 Summarize long-term prospects and current market conditions.""",
             agent=report_writer,
-            expected_output="A 5-page Markdown investment report with insights, comparisons, and recommendations.",
+            expected_output="A 5-page investment report with insights, comparisons, and recommendations.",
             context=analyst_tasks
         )
 
