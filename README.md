@@ -2,6 +2,8 @@
 
 FinWise AI is an AI-powered investment research assistant built using [Streamlit](https://streamlit.io/), [CrewAI](https://docs.crewai.com/), and [LangChain](https://www.langchain.com/). It enables users to generate detailed 5-page investment reports by simply entering a financial query — such as comparing multiple companies on valuation, growth, or profitability metrics.
 
+**Deployed Link**: https://investment-report-generator1.streamlit.app/
+
 ---
 
 ## 🚀 Features
